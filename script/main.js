@@ -48,6 +48,9 @@ $(function () {
   if(!githubOrganisation){
     githubOrganisation = defaultGithubOrganisation;
   }
+  
+  githubOrganisation = 'codeship';
+  
   useHash();
   // Place to store metadata about all the loaded issues
   window.metadata = {
